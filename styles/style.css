@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    @import url(<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+  </style>);
 }
 .hero{
     background-image: url(../images/cow\ \(2\).jpg);
@@ -31,6 +33,7 @@
     border-width: 15px;
     border-color: yellow;
     border-style: solid;
+    
 
 }
 
